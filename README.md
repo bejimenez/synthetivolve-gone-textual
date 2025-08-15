@@ -76,7 +76,7 @@ A great TUI is not a website in a terminal; it's a unique experience built aroun
     *   **Focus Over Flash:** Use color and text styling purposefully. Your color-coding standards (green, yellow, red) are perfect here. Avoid clutter. Every character on the screen should serve a purpose.
 
 3.  **Data Visualization in the Terminal:**
-    *   **Sparklines for Trends:** Use the `sparklines` library to render a compact, expressive 7-day or 30-day weight trend directly on the dashboard.
+    *   **Sparklines for Trends:** Use the `sparklines` library to render a compact, expressive 7-day or 30-day weight trend directly on the dashboard. *Alternative* textual-plotext
     *   **Bar Charts for Macros:** Represent daily calorie and macro intake with simple, color-coded bar charts built with Textual widgets. You can use block characters (`█`) to create surprisingly effective visualizations.
     *   **Tables for History:** Use Textual's `DataTable` widget to display historical data. Make it sortable by column for easy analysis.
 
