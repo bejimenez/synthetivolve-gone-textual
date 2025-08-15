@@ -8,7 +8,7 @@ This document outlines a re-architecture of Synthetivolve into a pure Python, te
 
 The core philosophy remains unchanged: **Track adherence vs. effectiveness**. The application's strength lies in its intelligent, data-driven logic. This new architecture focuses on delivering that intelligence through the most efficient interface possible: a TUI.
 
-## 🏛️ Core Architecture: The Unified Monolith
+## 🏛️ Core Architecture
 
 The fundamental shift is from a decoupled "frontend/backend" model to a **unified monolithic application**. The presentation layer (the TUI) and the business logic layer run in the same Python process. This dramatically simplifies the entire system.
 
