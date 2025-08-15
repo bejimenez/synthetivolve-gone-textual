@@ -53,15 +53,6 @@ This stack is streamlined for a pure Python environment, removing all web and Ja
 *   **Database Migrations:** Alembic - For version-controlling the database schema.
 *   **Data Visualization:** [Sparklines](https://pypi.org/project/sparklines/) (or custom Textual widgets) - For creating simple, effective terminal-based charts and graphs.
 
-### Removed Systems & Libraries
-The following are **no longer needed** in this architecture:
-*   **Web Frameworks:** FastAPI, Uvicorn
-*   **API Validation:** Pydantic (though still useful for data modeling within the core logic)
-*   **Authentication:** FastAPI-Users, python-jose, passlib
-*   **JavaScript:** React, Vite, Node.js
-*   **CSS:** Tailwind CSS
-*   **JS Libraries:** Recharts, shadcn/ui, QuaggaJS
-
 ## ✨ TUI-Specific Design & UX Recommendations
 
 A great TUI is not a website in a terminal; it's a unique experience built around efficiency.
